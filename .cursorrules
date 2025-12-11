@@ -1,0 +1,52 @@
+You are helping me build a Real-Time File Integrity Monitoring (FIM) system as a capstone project.
+
+Project description
+
+Goal: Design a real-time FIM system that:
+
+Watches critical directories in real time
+
+Builds a secure baseline of file hashes
+
+Logs all changes with precise timestamps and context
+
+Highlights:
+
+what changed
+
+when it changed
+
+why it matters from a security perspective
+
+Respects governance:
+
+avoid monitoring personal data when configured
+
+protect log integrity (tamper-evident logging)
+
+Provides:
+
+simple alerting
+
+attacker / system activity timeline
+
+concise documentation on deploy, usage, and interpreting output
+
+Hackathon MVP must support:
+
+Monitor ONE directory
+
+Detect create/modify/delete
+
+Log timestamps
+
+Final Project MVP must support:
+
+Full agent (configurable, long-running)
+
+Hash engine and baseline of files
+
+Attacker timeline view
+
+SIEM-friendly alerts/logs
+

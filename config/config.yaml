@@ -1,0 +1,32 @@
+# FIM Agent Configuration Example
+# Copy this file to config.yaml and customize for your environment
+
+# Directories to monitor
+monitored_directories:
+  - "./watched"
+  - "./staging"
+
+# Directories to exclude from monitoring
+exclude_directories:
+  - "./.git"
+  - "./venv"
+  - "./__pycache__"
+
+# File extensions to ignore
+exclude_extensions:
+  - ".log"
+  - ".tmp"
+  - ".swp"
+
+# SQLite database file for baselines/events
+database_path: "./data/fim.sqlite3"
+
+# Log output file
+log_file: "./logs/fim_agent.log"
+
+# Log output format (json or text)
+log_format: "json"
+
+# Alert thresholds for SIEM-style alerts
+alert_min_risk_score: 60
+alert_min_ai_risk_score: 70

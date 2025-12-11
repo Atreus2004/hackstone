@@ -1,0 +1,6 @@
+watchdog
+fastapi
+uvicorn
+pytest
+pyyaml
+
