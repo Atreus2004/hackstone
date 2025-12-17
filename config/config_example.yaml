@@ -20,8 +20,8 @@ exclude_extensions:
 # SQLite database file for baselines/events
 database_path: "./data/fim.sqlite3"
 
-# Log output file
-log_file: "./logs/fim_agent.log"
+# Log output file (JSON Lines)
+log_file: "./logs/fim_agent.jsonl"
 
 # Log output format (json, text, or wazuh)
 # wazuh: Wazuh-compatible JSON format for SIEM integration
